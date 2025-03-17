@@ -1,0 +1,129 @@
+/* Todo App Specific Styles */
+.todo-form {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.todo-form-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.group-tabs {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+.group-tab {
+  padding: 0.5rem 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.group-tab.active {
+  background-color: var(--primary-color);
+  color: white;
+  border-color: var(--primary-color);
+}
+
+.todo-list {
+  list-style: none;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.todo-list-empty {
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-gray);
+}
+
+.todo-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.8rem;
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  transition: background-color 0.2s;
+}
+
+.todo-item:hover {
+  background-color: var(--light-gray);
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.todo-item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.todo-item-header {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.todo-item input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.todo-item span {
+  flex: 1;
+  font-size: 1rem;
+  transition: color 0.2s;
+}
+
+.todo-item-group {
+  flex: 0 !important;
+  font-size: 0.8rem !important;
+  padding: 0.2rem 0.5rem;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  color: #666;
+}
+
+.todo-item-description {
+  margin-left: 28px;
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+.todo-item-completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.todo-count {
+  padding: 0.5rem;
+  color: var(--text-gray);
+}

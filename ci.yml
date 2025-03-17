@@ -1,0 +1,8 @@
+prepare:
+  steps:
+    - command: yarn install
+test:
+  steps: []
+run:
+  steps:
+    - command: yarn run dev
