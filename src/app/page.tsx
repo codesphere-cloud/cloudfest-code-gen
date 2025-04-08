@@ -59,6 +59,29 @@ export default function Home() {
             Open BMI Calculator
           </button>
         </div>
+
+        <div className="app-card">
+          <div className="app-card-icon" style={{ backgroundColor: '#e8f5e9' }}>
+            📅
+          </div>
+          <h2>Booking App</h2>
+          <p>Book a 10-minute slot during Cloud Fest (Tuesday-Thursday, 9AM-5PM).</p>
+          <p>Features:</p>
+          <ul>
+            <li>Easy time slot selection</li>
+            <li>Prevents double bookings</li>
+            <li>Real-time availability</li>
+            <li>Booking confirmation</li>
+            <li>Data is saved in a CSV file and emailed</li>
+          </ul>
+          <button 
+            className="app-button" 
+            style={{ width: '100%' }}
+            onClick={() => router.push('/booking')}
+          >
+            Open Booking App
+          </button>
+        </div>
       </div>
     </main>
   )

@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@anthropic-ai/claude-code@^0.2.45":
-  version "0.2.45"
-  resolved "https://registry.yarnpkg.com/@anthropic-ai/claude-code/-/claude-code-0.2.45.tgz#1e5886be5e256f3023be8b45e82bafc58b3af812"
-  integrity sha512-r8uSA59wuNUHjlU+snwkZBHGsuv7z5+sxDFhLxI+1wz6PU9CU2/V37k26c7YpN9OFfeRmt9hk7gb3KaIlTH2ZA==
+"@anthropic-ai/claude-code@^0.2.48":
+  version "0.2.48"
+  resolved "https://registry.yarnpkg.com/@anthropic-ai/claude-code/-/claude-code-0.2.48.tgz#fcd7ecfc522f6f7386e7e92c044882099d42724c"
+  integrity sha512-Av9EC7oBGSgNzJ8IFyYQnzCURtzmUZb1fRL+4vKJunCF33nCkTW82DEOKsfcj+Z268/Pf8WhXuI/vLbwpMdymw==
   optionalDependencies:
     "@img/sharp-darwin-arm64" "^0.33.5"
     "@img/sharp-linux-arm" "^0.33.5"
@@ -123,9 +123,9 @@
   integrity sha512-4fSQ8vWFkg+TGhePfUzVmat3eC14TXYSsiiDSLI0dVLsrm9gZFABjPy/Qu6TKgl1tq1Bu1yDsuQgY3A3DOjCcg==
 
 "@types/react@^19.0.10":
-  version "19.0.10"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.0.10.tgz#d0c66dafd862474190fe95ce11a68de69ed2b0eb"
-  integrity sha512-JuRQ9KXLEjaUNjTWpzuR231Z2WpIwczOkBEIvbHNCzQefFIT0L8IqE6NV6ULLyC1SI/i234JnDoMkfg+RjQj2g==
+  version "19.0.11"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-19.0.11.tgz#905e8869cf7a9723ba87d68073140ffed5760f69"
+  integrity sha512-vrdxRZfo9ALXth6yPfV16PYTLZwsUWhVjjC+DkfE5t1suNSbBrWC9YqSuuxJZ8Ps6z1o2ycRpIqzZJIgklq4Tw==
   dependencies:
     csstype "^3.0.2"
 
@@ -137,9 +137,9 @@ busboy@1.6.0:
     streamsearch "^1.1.0"
 
 caniuse-lite@^1.0.30001406:
-  version "1.0.30001705"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001705.tgz#dc3510bcdef261444ca944b7be9c8d0bb7fafeef"
-  integrity sha512-S0uyMMiYvA7CxNgomYBwwwPUnWzFD83f3B1ce5jHUfHTH//QL6hHsreI8RVC5606R4ssqravelYO5TU6t8sEyg==
+  version "1.0.30001706"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001706.tgz#902c3f896f4b2968031c3a546ab2ef8b465a2c8f"
+  integrity sha512-3ZczoTApMAZwPKYWmwVbQMFpXBDds3/0VciVoUwPUbldlYyVLmRVuRs/PcUZtHpbLRpzzDvrvnFuREsGt6lUug==
 
 client-only@0.0.1:
   version "0.0.1"
@@ -200,6 +200,11 @@ next@^13.5.6:
     "@next/swc-win32-arm64-msvc" "13.5.8"
     "@next/swc-win32-ia32-msvc" "13.5.8"
     "@next/swc-win32-x64-msvc" "13.5.8"
+
+nodemailer@^6.9.12:
+  version "6.10.0"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.10.0.tgz#1f24c9de94ad79c6206f66d132776b6503003912"
+  integrity sha512-SQ3wZCExjeSatLE/HBaXS5vqUOQk6GtBdIIKxiFdmm01mOQZX/POJkO3SUX1wDiYcwUOJwT23scFSC9fY2H8IA==
 
 picocolors@^1.0.0:
   version "1.1.1"
