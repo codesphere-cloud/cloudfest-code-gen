@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@anthropic-ai/claude-code": "^0.2.48",
+    "@anthropic-ai/claude-code": "^2.1.7",
     "@types/node": "^22.13.10",
     "@types/react": "^19.0.10",
     "@types/react-dom": "^19.0.4",
